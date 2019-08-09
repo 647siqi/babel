@@ -1,0 +1,30 @@
+{
+  "name": "babel",
+  "version": "1.0.0",
+  "description": "this is javascript build -- babel",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha test/mocha.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/647siqi/babel.git"
+  },
+  "author": "nuby.liu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/647siqi/babel/issues"
+  },
+  "homepage": "https://github.com/647siqi/babel#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "babel-cli": "^6.26.0",
+    "babel-istanbul": "^0.12.2",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.2.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^6.2.0"
+  }
+}
