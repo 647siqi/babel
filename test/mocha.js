@@ -6,7 +6,7 @@ describe('#math', () => {
     it('should return 5 when 2 + 3', () => {
       expect(add(2, 3), 5)
     })
-    it.skip('should return -1 when 2 + -3', () => {
+    it('should return -1 when 2 + -3', () => {
       expect(add(2, -3), -1)
     })
   })
