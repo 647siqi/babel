@@ -3,10 +3,12 @@ node_js:
   - "6"
   - "8"
 install:
-  - npm install  
+  - "npm install"
+  - "npm install -g codecov"
 brancher:
   only:
     - "dev"
     - "master"
   script:
     - "npm run cover"
+    - "codecov"
