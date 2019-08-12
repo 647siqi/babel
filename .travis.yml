@@ -2,13 +2,14 @@ language: node_js
 node_js:
   - "6"
   - "8"
-install:
-  - "npm install"
-  - "npm install -g codecov"
 brancher:
   only:
     - "dev"
     - "master"
-  script:
-    - "npm run cover"
-    - "codecov"
+install:
+  - "npm install"
+  - "npm install -g codecov"
+script:
+  - "npm run cover"
+  - "codecov"
+CODECOV_TOKEN: "bea9d7cb-c158-4207-abe1-7a16508db45e"
