@@ -5,4 +5,4 @@ brancher:
     - "master"
   script:
     - "npm run cover"
-    - "npm test"
+    - "npm run test"
